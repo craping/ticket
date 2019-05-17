@@ -1,4 +1,4 @@
-package ticket.server.pump;
+package ticket.service.pump;
 
 import java.io.IOException;
 import java.security.interfaces.RSAPublicKey;
@@ -27,9 +27,9 @@ import io.netty.channel.Channel;
 import io.netty.handler.codec.http.FullHttpRequest;
 import net.sf.json.JSONObject;
 import ticket.HttpServer;
-import ticket.server.param.TokenParam;
-import ticket.server.sync.SyncContext;
-import ticket.server.sync.pojo.SyncMsg;
+import ticket.service.param.TokenParam;
+import ticket.service.sync.SyncContext;
+import ticket.service.sync.pojo.SyncMsg;
 
 @Pump("api")
 @Component

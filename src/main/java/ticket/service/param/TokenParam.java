@@ -1,4 +1,4 @@
-package ticket.server.param;
+package ticket.service.param;
 
 import org.crap.jrain.core.bean.result.Errcode;
 import org.crap.jrain.core.bean.result.Result;
@@ -8,8 +8,8 @@ import org.crap.jrain.core.validate.support.param.SingleParam;
 import org.crap.jrain.core.validate.support.param.StringParam;
 
 import redis.clients.jedis.Jedis;
-import ticket.server.CustomErrors;
-import ticket.server.util.RedisUtil;
+import ticket.service.CustomErrors;
+import ticket.service.util.RedisUtil;
 
 public class TokenParam extends StringParam implements SingleParam {
 	

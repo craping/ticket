@@ -1,4 +1,4 @@
-package ticket.server.sync;
+package ticket.service.sync;
 
 import java.io.IOException;
 import java.util.List;
@@ -32,8 +32,8 @@ import io.netty.handler.codec.http.HttpHeaderValues;
 import io.netty.handler.codec.http.HttpResponseStatus;
 import io.netty.handler.codec.http.HttpVersion;
 import io.netty.util.CharsetUtil;
-import ticket.server.sync.pojo.SyncMsg;
-import ticket.server.util.RedisUtil;
+import ticket.service.sync.pojo.SyncMsg;
+import ticket.service.util.RedisUtil;
 
 @Component
 @EnableScheduling

@@ -1,4 +1,4 @@
-package ticket.server.sync;
+package ticket.service.sync;
 
 import org.crap.jrain.core.bean.result.Errcode;
 import org.crap.jrain.core.bean.result.criteria.DataResult;

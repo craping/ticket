@@ -1,4 +1,4 @@
-package ticket.server.sync;
+package ticket.service.sync;
 
 import io.netty.channel.Channel;
 import io.netty.handler.codec.http.FullHttpRequest;

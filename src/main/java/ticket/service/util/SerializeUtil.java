@@ -1,4 +1,4 @@
-package ticket.server.util;
+package ticket.service.util;
 
 
 import java.io.ByteArrayInputStream;

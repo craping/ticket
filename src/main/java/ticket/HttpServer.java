@@ -23,7 +23,7 @@ import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.ssl.SslContextBuilder;
 import io.netty.handler.ssl.util.SelfSignedCertificate;
 import io.netty.handler.stream.ChunkedWriteHandler;
-import ticket.server.sync.NettySyncRender;
+import ticket.service.sync.NettySyncRender;
 
 public class HttpServer {
 

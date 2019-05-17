@@ -1,4 +1,4 @@
-package ticket.server.util;
+package ticket.service.util;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

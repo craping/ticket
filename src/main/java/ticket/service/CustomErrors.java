@@ -1,4 +1,4 @@
-package ticket.server;
+package ticket.service;
 
 import org.crap.jrain.core.bean.result.Errcode;
 

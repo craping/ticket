@@ -1,4 +1,4 @@
-package ticket.server.sync.pojo;
+package ticket.service.sync.pojo;
 
   
 /**  
